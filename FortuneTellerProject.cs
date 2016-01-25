@@ -212,7 +212,7 @@ namespace FortuneTellerProject
                 string x = month[0].ToString().ToLower();
                 string y = month[1].ToString().ToLower();
                 string z = month[2].ToString().ToLower();
-                string[] money = { "almost $32,00", "at least $50,000", "just over $1million" };
+                string[] money = { "almost $32,000 ", "at least $50,000 ", "just over $1million " };
                 if (fullname.Contains(x))
                 {
                     Console.WriteLine("with " + money[0] + "in the bank, ");
